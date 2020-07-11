@@ -1,4 +1,5 @@
 ﻿using System;
+using HanewichDataRelay;
 
 namespace FunctionalTesting
 {
@@ -6,7 +7,17 @@ namespace FunctionalTesting
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string msg = "Hello world!";
+            DataPackage[] packages = DataPackage.CreateDataPackages(DataPackage.StringToBytes(msg), 5);
+
+            DataPackageStitcher dps = new DataPackageStitcher();
+            foreach (DataPackage dp in packages)
+            {
+                dps.ReceiveDataPackage(dp);
+            }
+
+            Console.WriteLine(dps.AllPackagesReceived().ToString());
+            Console.WriteLine(DataPackage.BytesToString(dps.GetCombinedContent()));
         }
     }
 }

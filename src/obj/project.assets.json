@@ -186,11 +186,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tihanewi\\Downloads\\HanewichDataRelay\\src\\HanewichDataRelay\\HanewichDataRelay.csproj",
+      "projectUniqueName": "C:\\Users\\tihanewi\\Downloads\\HanewichDataRelay\\src\\HanewichDataRelay.csproj",
       "projectName": "HanewichDataRelay",
-      "projectPath": "C:\\Users\\tihanewi\\Downloads\\HanewichDataRelay\\src\\HanewichDataRelay\\HanewichDataRelay.csproj",
+      "projectPath": "C:\\Users\\tihanewi\\Downloads\\HanewichDataRelay\\src\\HanewichDataRelay.csproj",
       "packagesPath": "C:\\Users\\tihanewi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tihanewi\\Downloads\\HanewichDataRelay\\src\\HanewichDataRelay\\obj\\",
+      "outputPath": "C:\\Users\\tihanewi\\Downloads\\HanewichDataRelay\\src\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
