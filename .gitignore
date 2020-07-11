@@ -1,4 +1,4 @@
-src/bin
-src/obj
-FunctionalTesting/bin
-FunctionalTesting/obj
+csharp/src/bin
+csharp/src/obj
+csharp/FunctionalTesting/bin
+csharp/FunctionalTesting/obj
