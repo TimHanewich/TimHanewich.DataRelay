@@ -2,3 +2,4 @@ csharp/src/bin
 csharp/src/obj
 csharp/FunctionalTesting/bin
 csharp/FunctionalTesting/obj
+.vscode/
